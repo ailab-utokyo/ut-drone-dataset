@@ -22,8 +22,8 @@ Each entry below links to a **direct download** (no extra clicks) with a fallbac
 | **v4.3_normal.zip** | v4.3 | Normal | 1.38 GB | [Download](https://drive.google.com/uc?export=download&id=1UmW4u5gz6HHaRjL_prrFRa2XluLP2hf1) | [View](https://drive.google.com/file/d/1UmW4u5gz6HHaRjL_prrFRa2XluLP2hf1/view?usp=drive_link) |
 | **v4.4_normal.zip** | v4.4 | Normal | 2.11 GB | [Download](https://drive.google.com/uc?export=download&id=1XSawaRhNnSyBC2SB5UvgFzAgnQ4rwLko) | [View](https://drive.google.com/file/d/1XSawaRhNnSyBC2SB5UvgFzAgnQ4rwLko/view?usp=drive_link) |
 
-> **Total size:** ~10.4 GB (v3.x: ~3.6 GB, v4.x: ~6.8 GB)
-> 
+> **Total size:** ~9.8 GB (v3.x: ~3.6 GB, v4.x: ~6.2 GB)
+
 ---
 
 ## One-liner Downloads
