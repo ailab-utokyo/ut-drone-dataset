@@ -28,52 +28,24 @@ Each entry below links to a **direct download** (no extra clicks) with a fallbac
 
 ## One-liner Downloads
 
-### Using `wget`
 ```bash
-# Download all zips to ./data
+# 1. Install gdown
+pip install gdown
+
+# 2. Create data directory
 mkdir -p data && cd data
 
-# v3.x
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=19q7rvhruWlHSvHF7FSb2-Y151dld317I" -O v3.1_normal.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1GpBbNULSF2_w4DlW4eYHzF9-Bhi5T1o1" -O v3.1_anomaly_imbalanced_propeller.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1Ln0Ap6_O44HBbR361kICbQNPRbvi3asE" -O v3.2_normal.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1nE0kEN3ZloaBsMejl2_wmXKabCtjFARs" -O v3.2_anomaly_severely_imbalanced_propeller.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1fv9SehJ0uBwx4tj7lyf0Ga1l6LT6dA5Q" -O v3.3_normal.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1fo9D6cVndZRgwZL614QcbqJGMiauUEn0" -O v3.3_anomaly_cracked_propeller.zip
+# 3. Download v3.x
+gdown 19q7rvhruWlHSvHF7FSb2-Y151dld317I -O v3.1_normal.zip
+gdown 1GpBbNULSF2_w4DlW4eYHzF9-Bhi5T1o1 -O v3.1_anomaly_imbalanced_propeller.zip
+gdown 1Ln0Ap6_O44HBbR361kICbQNPRbvi3asE -O v3.2_normal.zip
+gdown 1nE0kEN3ZloaBsMejl2_wmXKabCtjFARs -O v3.2_anomaly_severely_imbalanced_propeller.zip
+gdown 1fv9SehJ0uBwx4tj7lyf0Ga1l6LT6dA5Q -O v3.3_normal.zip
+gdown 1fo9D6cVndZRgwZL614QcbqJGMiauUEn0 -O v3.3_anomaly_cracked_propeller.zip
 
-# v4.x
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=16w-vDxfU-Em6NLmeY8f_JOGVQIkwsxCp" -O v4.1_normal.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1N6JuBu_y7gJPxV_d0pnQh_hwKB32_F_C" -O v4.2_normal.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1MLlJE7kze-NB9NwF780CU7CyHZlaWbwv" -O v4.3_normal.zip
-wget -q --show-progress \
-  "https://drive.google.com/uc?export=download&id=1xFMJsvAm8ReLACURz594zOZmq1m-g6an" -O v4.4_normal.zip
-```
-
-### Using `curl`
-```bash
-# Download all zips to ./data
-mkdir -p data && cd data
-
-# v3.x
-curl -L -o v3.1_normal.zip "https://drive.google.com/uc?export=download&id=19q7rvhruWlHSvHF7FSb2-Y151dld317I"
-curl -L -o v3.1_anomaly_imbalanced_propeller.zip "https://drive.google.com/uc?export=download&id=1GpBbNULSF2_w4DlW4eYHzF9-Bhi5T1o1"
-curl -L -o v3.2_normal.zip "https://drive.google.com/uc?export=download&id=1Ln0Ap6_O44HBbR361kICbQNPRbvi3asE"
-curl -L -o v3.2_anomaly_severely_imbalanced_propeller.zip "https://drive.google.com/uc?export=download&id=1nE0kEN3ZloaBsMejl2_wmXKabCtjFARs"
-curl -L -o v3.3_normal.zip "https://drive.google.com/uc?export=download&id=1fv9SehJ0uBwx4tj7lyf0Ga1l6LT6dA5Q"
-curl -L -o v3.3_anomaly_cracked_propeller.zip "https://drive.google.com/uc?export=download&id=1fo9D6cVndZRgwZL614QcbqJGMiauUEn0"
-
-# v4.x
-curl -L -o v4.1_normal.zip "https://drive.google.com/uc?export=download&id=16w-vDxfU-Em6NLmeY8f_JOGVQIkwsxCp"
-curl -L -o v4.2_normal.zip "https://drive.google.com/uc?export=download&id=1N6JuBu_y7gJPxV_d0pnQh_hwKB32_F_C"
-curl -L -o v4.3_normal.zip "https://drive.google.com/uc?export=download&id=1MLlJE7kze-NB9NwF780CU7CyHZlaWbwv"
-curl -L -o v4.4_normal.zip "https://drive.google.com/uc?export=download&id=1xFMJsvAm8ReLACURz594zOZmq1m-g6an"
+# 4. Download v4.x
+gdown 16w-vDxfU-Em6NLmeY8f_JOGVQIkwsxCp -O v4.1_normal.zip
+gdown 1N6JuBu_y7gJPxV_d0pnQh_hwKB32_F_C -O v4.2_normal.zip
+gdown 1MLlJE7kze-NB9NwF780CU7CyHZlaWbwv -O v4.3_normal.zip
+gdown 1xFMJsvAm8ReLACURz594zOZmq1m-g6an -O v4.4_normal.zip
 ```
