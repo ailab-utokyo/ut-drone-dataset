@@ -36,16 +36,16 @@ pip install -U gdown
 mkdir -p data && cd data
 
 # 3. Download v3.x
-gdown --id 19q7rvhruWlHSvHF7FSb2-Y151dld317I -O v3.1_normal.zip
-gdown --id 1GpBbNULSF2_w4DlW4eYHzF9-Bhi5T1o1 -O v3.1_anomaly_imbalanced_propeller.zip
-gdown --id 1Ln0Ap6_O44HBbR361kICbQNPRbvi3asE -O v3.2_normal.zip
-gdown --id 1nE0kEN3ZloaBsMejl2_wmXKabCtjFARs -O v3.2_anomaly_severely_imbalanced_propeller.zip
-gdown --id 1fv9SehJ0uBwx4tj7lyf0Ga1l6LT6dA5Q -O v3.3_normal.zip
-gdown --id 1fo9D6cVndZRgwZL614QcbqJGMiauUEn0 -O v3.3_anomaly_cracked_propeller.zip
+gdown 19q7rvhruWlHSvHF7FSb2-Y151dld317I -O v3.1_normal.zip
+gdown 1GpBbNULSF2_w4DlW4eYHzF9-Bhi5T1o1 -O v3.1_anomaly_imbalanced_propeller.zip
+gdown 1Ln0Ap6_O44HBbR361kICbQNPRbvi3asE -O v3.2_normal.zip
+gdown 1nE0kEN3ZloaBsMejl2_wmXKabCtjFARs -O v3.2_anomaly_severely_imbalanced_propeller.zip
+gdown 1fv9SehJ0uBwx4tj7lyf0Ga1l6LT6dA5Q -O v3.3_normal.zip
+gdown 1fo9D6cVndZRgwZL614QcbqJGMiauUEn0 -O v3.3_anomaly_cracked_propeller.zip
 
 # 4. Download v4.x
-gdown --id 16w-vDxfU-Em6NLmeY8f_JOGVQIkwsxCp -O v4.1_normal.zip
-gdown --id 1N6JuBu_y7gJPxV_d0pnQh_hwKB32_F_C -O v4.2_normal.zip
-gdown --id 1MLlJE7kze-NB9NwF780CU7CyHZlaWbwv -O v4.3_normal.zip
-gdown --id 1xFMJsvAm8ReLACURz594zOZmq1m-g6an -O v4.4_normal.zip
+gdown 16w-vDxfU-Em6NLmeY8f_JOGVQIkwsxCp -O v4.1_normal.zip
+gdown 1N6JuBu_y7gJPxV_d0pnQh_hwKB32_F_C -O v4.2_normal.zip
+gdown 1MLlJE7kze-NB9NwF780CU7CyHZlaWbwv -O v4.3_normal.zip
+gdown 1xFMJsvAm8ReLACURz594zOZmq1m-g6an -O v4.4_normal.zip
 ```
